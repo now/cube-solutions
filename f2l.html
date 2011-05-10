@@ -1,0 +1,236 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>F2L</title>
+    <style>
+      body{ background: white }
+      h1, h2, h3 { font-weight: normal }
+      h1, h3 { display: none }
+      h2 { font-weight: bold; font-size: 12pt }
+      img { margin-bottom: 12pt }
+      p { margin: 0 }
+      .two { -moz-column-count: 2 }
+      .three { -moz-column-count: 6 }
+      .four { -moz-column-count: 4 }
+    </style>
+  </head>
+  <body>
+    <h1>F2L</h1>
+
+    <h2>Notation</h2>
+    <dl>
+      <dt>d</dt>
+      <dd>Rotate bottom two layers to right.  This is the same as U′ followed
+      by a y′.</dd>
+      <dt>y′</dt>
+      <dd>Rotate all layers to right.  That is, reposition cube to the
+      right.</dd>
+    </dl>
+
+    <h2>Easy Cases</h2>
+
+    <div class="four">
+      <h3>F2L 1</h3>
+      <img src="f2l01.png">
+      <p>U (R U′ R′)</p>
+
+      <h3>F2L 2</h3>
+      <img src="f2l02.png">
+      <p>F R′ F′ R</p>
+
+      <h3>F2L 3</h3>
+      <img src="f2l03.png">
+      <p>(F′ U′ F)</p>
+
+      <h3>F2L 4</h3>
+      <img src="f2l04.png">
+      <p>(R U R′)</p>
+    </div>
+
+    <h2>Reposition Edge</h2>
+
+    <div class="four">
+      <h3>F2L 5</h3>
+      <img src="f2l05.png">
+      <p>(U′ R U R′) U2 (R U′ R′)</p>
+      <p>F2 (L′ U′ L U) F2</p>
+
+      <h3>F2L 6</h3>
+      <img src="f2l06.png">
+      <p>d (R′ U′ R) U2′ (R′ U R)</p>
+      <p>R2 (B U B′ U′) R2</p>
+
+      <h3>F2L 7</h3>
+      <img src="f2l07.png">
+      <p>U′ (R U2′ R′) U2 (R U′ R′)</p>
+
+      <h3>F2L 8</h3>
+      <img src="f2l08.png">
+      <p>d (R′ U2 R) U2′ (R′ U R)</p>
+    </div>
+
+    <h2>Reposition Edge and Flip Corner</h2>
+
+    <div class="three">
+      <h3>F2L 9</h3>
+      <img src="f2l09.png">
+      <p>U F′ U′ F U′ (F′ U′ F)</p>
+
+      <h3>F2L 10</h3>
+      <img src="f2l10.png">
+      <p>U′ (R U R′ U)(R U R′)</p>
+
+      <h3>F2L 11</h3>
+      <img src="f2l11.png">
+      <p>U′ (R U2′ R′) d (R′ U′ R)</p>
+
+      <h3>F2L 12</h3>
+      <img src="f2l12.png">
+      <p>R′ U2 R2 U R2 U R</p>
+
+      <h3>F2L 13</h3>
+      <img src="f2l13.png">
+      <p>d (R′ U R′ U′)(R′ U′ R)</p>
+
+      <h3>F2L 14</h3>
+      <img src="f2l14.png">
+      <p>U′ (R U′ R′ U)(R U R′)</p>
+    </div>
+
+    <h2>Split Pair by Going Over</h2>
+
+    <div class="four">
+      <h3>F2L 15</h3>
+      <img src="f2l15.png">
+      <p>U (R′ F R F′) U (R U R′)</p>
+
+      <h3>F2L 16</h3>
+      <img src="f2l16.png">
+      <p>(R U′ R′) U2 (F′ U′ F)</p>
+
+      <h3>F2L 17</h3>
+      <img src="f2l17.png">
+      <p>(R U2 R′) U′ (R U R′)</p>
+
+      <h3>F2L 18</h3>
+      <img src="f2l18.png">
+      <p>y′ (R′ U2 R) U (R′ U′ R)</p>
+    </div>
+
+    <h2>Pair Made on Side</h2>
+
+    <div class="four">
+      <h3>F2L 19</h3>
+      <img src="f2l19.png">
+      <p>U R U2 R2 (F R F′)</p>
+
+      <h3>F2L 20</h3>
+      <img src="f2l20.png">
+      <p>U′ F′ U2 F2 (R′ F′ R)</p>
+
+      <h3>F2L 21</h3>
+      <img src="f2l21.png">
+      <p>R B U2 B′ R′</p>
+
+      <h3>F2L 22</h3>
+      <img src="f2l22.png">
+      <p>F′ L′ U2 L F</p>
+    </div>
+
+    <h2>Weird</h2>
+
+    <div class="two">
+      <h3>F2L 23</h3>
+      <img src="f2l23.png">
+      <p>U2 R2 U2 (R′ U′ R U′) R2</p>
+
+      <h3>F2L 24</h3>
+      <img src="f2l24.png">
+      <p>U2 F2 U2 (F U F′ U) F2</p>
+    </div>
+
+    <h2>Corner in Place, Edge in U Face</h2>
+
+    <div class="three">
+      <h3>F2L 25</h3>
+      <img src="f2l25.png">
+      <p>R′ F′ R U R U′ R′ F</p>
+
+      <h3>F2L 26</h3>
+      <img src="f2l26.png">
+      <p>U (R U′ R′) U′ (F′ U F)</p>
+
+      <h3>F2L 27</h3>
+      <img src="f2l27.png">
+      <p>(R U′ R2)(F R F′)</p>
+
+      <h3>F2L 28</h3>
+      <img src="f2l28.png">
+      <p>(F′ U F2)(R′ F′ R)</p>
+
+      <h3>F2L 29</h3>
+      <img src="f2l29.png">
+      <p>y′ (R′ U′ R U)(R′ U′ R)</p>
+
+      <h3>F2L 30</h3>
+      <img src="f2l30.png">
+      <p>(R U R′ U′)(R U R′)</p>
+    </div>
+
+    <h2>Edge in Place, Corner in U Face</h2>
+
+    <div class="three">
+      <h3>F2L 31</h3>
+      <img src="f2l31.png">
+      <p>(R U′ R′ U)(F′ U F)</p>
+
+      <h3>F2L 32</h3>
+      <img src="f2l32.png">
+      <p>(R U R′ U′)(R U R′ U′)(R U R′)</p>
+
+      <h3>F2L 33</h3>
+      <img src="f2l33.png">
+      <p>(U′ R U′ R′) U2 (R U′ R′)</p>
+
+      <h3>F2L 34</h3>
+      <img src="f2l34.png">
+      <p>U (R U R′) U2 (R U R′)</p>
+
+      <h3>F2L 35</h3>
+      <img src="f2l35.png">
+      <p>U2 (R U′ R′) U′ (F′ U′ F)</p>
+
+      <h3>F2L 36</h3>
+      <img src="f2l36.png">
+      <p>U F′ U′ F U′ (R U R′)</p>
+    </div>
+
+    <h2>Edge and Corner in Place</h2>
+
+    <div class="three">
+      <h3>F2L 37</h3>
+      <img src="f2l37.png">
+      <p><em>Solved</em></p>
+
+      <h3>F2L 38</h3>
+      <img src="f2l38.png">
+      <p>(R2 U2) (F R2 F′) (U2 R′ U R′)</p>
+
+      <h3>F2L 39</h3>
+      <img src="f2l39.png">
+      <p>(R U′ R′) U′ (R U R′) U2 (R U′ R′)</p>
+
+      <h3>F2L 40</h3>
+      <img src="f2l40.png">
+      <p>(R U′ R′ U)(R U2′ R′) U (R U′ R′)</p>
+
+      <h3>F2L 41</h3>
+      <img src="f2l41.png">
+      <p>(R U′ R′) d (R′ U′ R U′)(R′ U′ R)</p>
+
+      <h3>F2L 42</h3>
+      <img src="f2l42.png">
+      <p>(R U′ R′) d (R′ U′ R U′)(R′ U R)</p>
+    </div>
+  </body>
+</html>
